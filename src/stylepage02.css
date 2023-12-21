@@ -4,49 +4,109 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+body{
+    background: url('https://i.pinimg.com/originals/b9/c8/f8/b9c8f893c9a782033a01f47e0c0b1d6e.jpg') no-repeat;
+}
+
 header{
-    background: url('imagens/wallpaper005.jpg') no-repeat center center;
-    background-size: 100%;
-    padding-top: 50px;
+    padding-top: 100px;
     padding-bottom: 50px;
+    margin-bottom: 50px;
     text-align: center;
 }
 
 header h1{
     font-size: 3em;
     font-variant: small-caps;
+    color: white;
 }
 
 section{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    margin: auto;
+    width: 90%;
+    margin-bottom: 10vh;
 }
 
-section h3{
+.imagem{
+    height: 90vh;
+    padding: 10px;
+    box-shadow: inset 0px 6px 10px rgba(0, 0, 0, 0.185);
+    border-radius: 10px;
+}
+
+.teste{
+    padding: 20vh 10vh;
+}
+
+.teste h3{
     font-size: 2em;
-    padding-top: 10vh;
+    padding-left: 10vw;
+    color: white;
+    font-variant: small-caps;
+}
+
+.txtintro{
+    text-align: right;
+    padding: 5px 50px;
+    font-size: 1.5em;
+    text-shadow: 1px 1px rgba(175, 175, 175, 0.63);
+    text-indent: 2em;
     color: white;
 }
 
-section p{
+.txt h3{
+    font-variant: small-caps;
+    font-size: 3em;
+    padding-top: 10vh;
+    color: #890ae4c7;
+    padding: 0;
+}
+
+.txt{
     text-align: justify;
-    padding: 15px;
     font-size: 2em;
     text-indent: 2em;
-    background-color: rgba(0, 0, 0, 0.555);
-    color: white;
+    background-color: rgba(0, 0, 0, 0.219);
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px #a5b52de1;
+    border-radius: 0 0 10px 10px;
+    padding: 10px;
+    padding-top: 0;
 }
 
-img{
-    width: 90vw;
-    padding-bottom: 15px;
+section a{
+    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+    color: #D9F600;
 }
 
-.imagem01{
-    background: url("https://static.carthrottle.com/workspace/uploads/posts/2016/01/2ba31a6647ea2ef27661c45c9110a529.jpeg") center center;
-    background-attachment: fixed;
+section a:hover{
+    text-decoration: underline;
+}
+
+#img01{
+    background: url("https://static.carthrottle.com/workspace/uploads/posts/2016/01/2ba31a6647ea2ef27661c45c9110a529.jpeg") bottom no-repeat fixed;
     background-size: cover;
-    height: 99vh;
-    padding: 20px;
+}
+
+#img02{
+    background: url("https://cdn.dealeraccelerate.com/international/1/168/8737/1920x1440/1992-mazda-rx-7") bottom center no-repeat fixed;
+    background-size: cover;
+}
+
+#img03{
+    background: url("https://premiercarmodels.com/wp-content/uploads/2021/06/200320-066.jpg") no-repeat fixed;
+    background-size: cover;
+}
+
+
+.teste2{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
